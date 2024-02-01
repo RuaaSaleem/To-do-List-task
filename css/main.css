@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+}
+.todoBox{
+    background-color: #fff;
+    width: 500px;
+    margin : 20px auto;
+    padding:20px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.title{
+    text-align: center;
+
+  
+}
+
+.todoList{
+    display: flex; 
+    gap: 10px;
+   padding: 20px;
+}
+
+.txt{
+    width: 70%;
+    height: 30px;
+    padding: 5px;
+}
+
+.addbtn{
+    width:20%;
+    color: #fff;
+    background-color:forestgreen;
+    cursor: pointer;
+}
+.tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.task{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+   background-color: #eee;
+}
+
+.task-title-checked { 
+    text-decoration: line-through;
+}
